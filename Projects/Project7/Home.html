@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rent A Pet Home Page</title>
+<link href="mystyles.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="myscripts.js"></script>
+</head>
+
+<body onload="preloadImages()">
+
+<div id="container">
+
+    <header>
+    	<img src="Images/logo1.png" alt="Rent A Pet logo" id="logo"
+         	onmouseover="document.getElementById('logo').src='Images/logo2.jpg'"
+         	onmouseout="document.getElementById('logo').src='Images/logo1.png'">
+
+    	<img src="Images/banner.png" alt="Rent A Pet banner" id="banner">
+
+    	<nav>
+        	<a href="Home.html">Home</a>
+        	<a href="AboutUs.html">About Us</a>
+        	<a href="Tributes.html">Tributes</a>
+    	</nav>
+    </header>
+
+    <section>
+        <article>
+    		<h1>Welcome to Rent A Pet</h1>
+
+    		<p>
+        		Welcome to Rent A Pet! If you love to interact with pets like we do, you should enjoy
+        		looking around this site. Take a look at our Pet Profiles and take the opportunity to
+        		complete our survey.
+   			 </p>
+</article>
+		
+		<h2>Featured Pets Gallery</h2>
+
+<div id="gallery">
+    <div id="thumbs">
+        <img src="Images/Pet1.jpg" alt="Pet thumbnail 1"
+             onmouseover="swapImage('Images/fullsize/Pet/Pet1Lg.jpg')">
+
+        <img src="Images/HamsterSm.jpg" alt="Pet thumbnail 2"
+             onmouseover="swapImage('Images/fullsize/Pet/HamsterLg.jpg')">
+
+        <img src="Images/GermanShephard2Small.jpg" alt="Pet thumbnail 3"
+             onmouseover="swapImage('Images/fullsize/Pet/GermanShephard2Lg.jpg')">
+
+        <img src="Images/CatandDogSm.jpg" alt="Pet thumbnail 4"
+             onmouseover="swapImage('Images/fullsize/Pet/CatandDogLg.jpg')">
+    </div>
+
+    <div id="image">
+        <img src="Images/fullsize/Pet/Pet1Lg.jpg" alt="Full-size featured pet" id="fullsize">
+    </div>
+</div>
+		
+		<h2>Mini Tribute</h2>
+
+<div class="tribute">
+    <img src="Images/GermanShephard1.jpg" alt="Tribute pet image" class="tributeimg">
+
+    <p>
+        One of our favorite pets is a loyal German Shephard named Max. Max is known for his
+        gentle personality, playful spirit, and ability to make everyone around him smile.
+        His loving nature reminds us why pets become such important members of our families.
+        <a href="Tributes.html">more &gt;&gt;</a>
+    </p>
+</div>
+    </section>
+
+    <footer>
+    	<p><a href="mailto:10873730@uvu.edu">Webmaster Email</a></p>
+    	<p>This web site has been created solely for educational purposes.</p>
+	</footer>
+
+</div>
+
+</body>
+</html>
